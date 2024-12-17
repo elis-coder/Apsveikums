@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Christmas</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to bottom right, #87CEFA, #ADD8E6); /* Lighter blue background */
+            color: white;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+            overflow: hidden; /* Prevent snowflakes from overflowing */
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 3em;
+            color: #ffdd00;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+        }
+        p {
+            font-size: 1.5em;
+            color: #ffffff;
+            margin-top: 20px;
+            line-height: 1.6;
+        }
+        .footer {
+            font-size: 1.2em;
+            margin-top: 30px;
+            color: #ffdd00;
+        }
+
+        /* Snowflakes animation */
+        .snowflake {
+            position: absolute;
+            top: -10px;
+            font-size: 2em;
+            opacity: 0;
+            animation: fall linear infinite;
+        }
+
+        /* Generate falling snowflakes */
+        .snowflake:nth-child(1) {
+            left: 5%;
+            animation-duration: 6s;
+        }
+        .snowflake:nth-child(2) {
+            left: 10%;
+            animation-duration: 7s;
+        }
+        .snowflake:nth-child(3) {
+            left: 15%;
+            animation-duration: 8s;
+        }
+        .snowflake:nth-child(4) {
+            left: 20%;
+            animation-duration: 5s;
+        }
+        .snowflake:nth-child(5) {
+            left: 25%;
+            animation-duration: 6s;
+        }
+        .snowflake:nth-child(6) {
+            left: 30%;
+            animation-duration: 7s;
+        }
+        .snowflake:nth-child(7) {
+            left: 35%;
+            animation-duration: 6s;
+        }
+        .snowflake:nth-child(8) {
+            left: 40%;
+            animation-duration: 8s;
+        }
+        .snowflake:nth-child(9) {
+            left: 45%;
+            animation-duration: 5s;
+        }
+        .snowflake:nth-child(10) {
+            left: 50%;
+            animation-duration: 7s;
+        }
+
+        /* Snowflake fall animation */
+        @keyframes fall {
+            0% {
+                top: -10px;
+                opacity: 1;
+            }
+            100% {
+                top: 100%;
+                opacity: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>🎄 Merry Christmas! 🎄</h1>
+        <p>Wishing you joy, peace, and love this festive season. May your days be filled with happiness and your heart with warmth. 🎅🎁</p>
+        <div class="footer">
+            Have a wonderful holiday and a Happy New Year! <br> 
+            - From [Eleonora]
+        </div>
+    </div>
+
+    <!-- Snowflakes falling animation -->
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+    <div class="snowflake">❄</div>
+
+</body>
+</html>
